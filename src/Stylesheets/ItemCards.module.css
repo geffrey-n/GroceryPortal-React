@@ -1,0 +1,128 @@
+.bottom_portion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vw;
+}
+.itemCards {
+  background-color: rgb(255, 240, 210);
+  border: 20px solid white;
+  border-radius: 8vw;
+  box-shadow: 1px 1px 20px 5px gray;
+  height: 37vw;
+  width: 80vw;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.products {
+  font-style: italic;
+  font-weight: bolder;
+  grid-area: 1/2/2/3;
+}
+.products_firstletter {
+  font-size: 5vw;
+  color: #02a437;
+}
+.products_nextletters {
+  font-size: 2.5vw;
+  color: #a5490a;
+}
+
+.products_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 95%;
+  margin-left: 1vw;
+}
+
+.item_card {
+  width: 13vw;
+  height: max-content;
+  background-color: rgb(245, 220, 170);
+  padding-bottom: 1vw;
+  margin: 0vw 0vw 3vw 2vw;
+  border-radius: 2vw;
+}
+
+.item_image {
+  height: 7.5vw;
+}
+
+.item_title {
+  color: #a5490a;
+  font-weight: bold;
+  font-size: 1.7vw;
+  margin-bottom: 0.5vw;
+}
+
+.item_price,
+.item_quantity {
+  font-size: 1.2vw;
+  margin: 0.7vw;
+}
+
+.item_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add_icon {
+  margin: 0.5vw;
+  color: #a5490a;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+.item_input {
+  width: 3vw;
+  height: 1.5vw;
+  border: 0vw;
+  padding: 0.3vw;
+  text-align: center;
+  border-radius: 1vw;
+  outline: none;
+}
+
+.minus_icon {
+  margin: 0.5vw;
+  color: #a5490a;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+.item_add {
+  border: none;
+  margin: 0.7vw;
+  padding: 0.5vw;
+  width: 10vw;
+  font-size: 1.3vw;
+  background-color: #a5490a;
+  color: white;
+  border-radius: 5vw;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.out_of_stock {
+  border: none;
+  margin: 0.7vw;
+  padding: 0.5vw;
+  width: 10vw;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 1.5vw;
+  color: red;
+  border-radius: 5vw;
+}

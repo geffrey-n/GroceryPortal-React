@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?display=swap&family=Roboto&display=swap");
+
+body {
+  background-image: url("../Assets/bgimage.png");
+  background-size: 10%;
+  background-repeat: repeat;
+  font-family: "Roboto";
+  --toastify-toast-width: 15vw;
+  --toastify-toast-min-height: 3vw;
+  --toastify-color-light: #a5490a;
+  --toastify-text-color-light: #ffff;
+  user-select: none;
+}
+.header {
+  background-color: rgb(255, 240, 210);
+  border: 15px solid white;
+  border-top: 15px none white;
+  border-radius: 0vw 0vw 5vw 5vw;
+  box-shadow: 1px 1px 20px 5px gray;
+  display: grid;
+  grid-template-columns: 22% 54% 10% 3% 10%;
+  grid-template-rows: 7.5vw;
+}
+.app_logo_name {
+  padding: 1vw 0vw 1.5vw 3vw;
+  display: grid;
+  grid-template-columns: 5.5vw 5vw;
+}
+
+.app_logo {
+  height: 5.5vw;
+  width: 5.5vw;
+}
+
+/* Size and style of the webpage name */
+.app_name {
+  font-style: italic;
+  font-weight: bolder;
+  grid-area: 1/2/2/3;
+}
+.app_name_firstword_firstletter {
+  font-size: 4vw;
+  color: #02a437;
+}
+.app_name_firstword_nextletters {
+  font-size: 2vw;
+  color: #02a437;
+}
+.app_name_secondword_firstletter {
+  font-size: 4vw;
+  color: #a5490a;
+}
+.app_name_secondword_nextletters {
+  font-size: 2vw;
+  color: #a5490a;
+}
+
+.cart_logo_name {
+  margin-top: 0.5vw;
+  padding: 1vw 0vw 1.5vw 0vw;
+  display: grid;
+  grid-template-columns: 4vw 5vw;
+  cursor: pointer;
+  grid-area: 1/5/2/6;
+}
+
+.cart_logo {
+  height: 4.5vw;
+  width: 4.5vw;
+}
+
+.cart_name {
+  font-style: italic;
+  font-weight: bolder;
+  grid-area: 1/2/2/3;
+}
+.cart_name_firstletter {
+  font-size: 3vw;
+  color: #02a437;
+}
+.cart_name_nextletters {
+  font-size: 1.5vw;
+  color: #a5490a;
+}
+
+.restock_logo_name {
+  margin-top: 0.5vw;
+  padding: 1vw 0vw 1.5vw 0vw;
+  display: grid;
+  grid-template-columns: 4.7vw 5vw;
+  cursor: pointer;
+  grid-area: 1/3/2/4;
+}
+
+.restock_logo {
+  padding-top: 0.5vw;
+  height: 4.5vw;
+  width: 4.5vw;
+}
+
+.restock_name {
+  font-style: italic;
+  font-weight: bolder;
+  grid-area: 1/2/2/3;
+}
+.restock_name_firstletter {
+  font-size: 3vw;
+  color: #02a437;
+}
+.restock_name_nextletters {
+  font-size: 1.5vw;
+  color: #a5490a;
+}
+
+.cart_view {
+  height: 80%;
+  width: 70%;
+  border: 20px solid white;
+  border-radius: 8vw;
+  box-shadow: 1px 1px 20px 5px gray;
+  background-color: rgb(255, 240, 210);
+  margin: 4vw 0vw 0vw 13vw;
+  outline: none;
+}
+
+.restock_view {
+  height: 80%;
+  width: 70%;
+  border: 20px solid white;
+  border-radius: 8vw;
+  box-shadow: 1px 1px 20px 5px gray;
+  background-color: rgb(255, 240, 210);
+  margin: 4vw 0vw 0vw 13vw;
+  outline: none;
+}
